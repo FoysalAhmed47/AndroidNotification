@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/show_notification_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Show Notification"
+        android:textAllCaps="false"
+        android:textSize="13sp"
+        />
+
+    <!--<TextView-->
+        <!--android:id="@+id/tet_view_token"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:textAllCaps="false"-->
+        <!--android:textSize="13sp"-->
+        <!--/>-->
+
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:orientation="vertical"-->
+        <!--android:padding="15dp"-->
+        <!--android:layout_centerInParent="true">-->
+
+        <!--<EditText-->
+            <!--android:id="@+id/edittextEmail"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:hint="email"-->
+            <!--android:inputType="textEmailAddress"-->
+            <!--/>-->
+
+        <!--<EditText-->
+            <!--android:id="@+id/edittextpass"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:hint="password"-->
+            <!--android:inputType="textEmailAddress"-->
+            <!--/>-->
+
+        <!--<Button-->
+        <!--android:id="@+id/btn_signup"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Sign Up"-->
+        <!--android:textAllCaps="false"-->
+            <!--android:layout_gravity="center"-->
+        <!--android:textSize="13sp"-->
+        <!--/>-->
+
+        <!--<ProgressBar-->
+            <!--android:id="@+id/progressbar"-->
+            <!--android:layout_width="40dp"-->
+            <!--android:layout_height="30dp"-->
+            <!--android:layout_gravity="center_horizontal"-->
+            <!--/>-->
+
+    <!--</LinearLayout>-->
+
+</RelativeLayout>
